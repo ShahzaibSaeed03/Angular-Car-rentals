@@ -1,0 +1,39 @@
+.ride-section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.ride-section .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    width: fit-content;
+    text-align: center;
+    
+}
+
+
+.ride-section .box img{
+    font-size: 34px;
+    padding: 10px;
+    background: #ECF5FF;
+    border-radius: 0.5rem;
+}
+
+.ride-section .box h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 1.4rem 0 0.5rem;
+}
+
+.ride-section .box .bx:hover,
+.ride-section .box .bxs-calendar-check {
+    background: var(--gradinet);
+    color: #fff;
+}

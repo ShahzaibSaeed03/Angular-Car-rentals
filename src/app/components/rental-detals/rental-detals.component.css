@@ -1,0 +1,51 @@
+
+.card {
+    height: 100%;
+  }
+  
+  .card-img-container {
+    overflow: hidden;
+    height: 150px; /* Set your desired height */
+  }
+  
+  .card-img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    height: calc(100% - 200px); /* Adjust based on the image height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating img {
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .features > div {
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    align-self: flex-end;
+  }
+  

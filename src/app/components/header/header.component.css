@@ -1,0 +1,19 @@
+.nav-item a {
+    position: relative;
+}
+
+.nav-item a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #077bff;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-item a:hover::after {
+    width: 100%;
+}
+

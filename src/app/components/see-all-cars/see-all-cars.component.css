@@ -1,0 +1,86 @@
+.search {
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    margin-top: 30px;
+  }
+  
+  .search input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button[type="submit"] {
+    background-color: #4e99e9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+  }
+  
+  .search button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: blue;
+  }
+  
+
+  .card {
+    height: 100%;
+  }
+  
+  .card-img-container {
+    overflow: hidden;
+    height: 150px; /* Set your desired height */
+  }
+  
+  .card-img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    height: calc(100% - 200px); /* Adjust based on the image height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating img {
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .features > div {
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    align-self: flex-end;
+  }
+  

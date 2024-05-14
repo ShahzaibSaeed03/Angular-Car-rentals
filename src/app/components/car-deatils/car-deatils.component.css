@@ -1,0 +1,34 @@
+.car-img {
+    /* background-image: url('/assets/images/bggg.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+/* background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #bcd6f0 20px ), repeating-linear-gradient( #1e90ff55, #1e90ff ); */
+
+}
+
+
+    .containerss {
+      border: 1px solid #ccc; /* Border around the main container */
+      padding: 10px;
+    }
+    .row {
+      display: flex;
+      align-items: center; /* Align items vertically */
+    }
+    .col {
+      display: flex;
+      align-items: center; /* Align items vertically */
+      margin-right: 10px; /* Adjust spacing between columns */
+    }
+    .col:last-child {
+      margin-right: 0; /* Remove margin from the last column to avoid extra space */
+    }
+    .col img {
+      margin-right: 5px; /* Adjust spacing between image and text */
+    }
